@@ -1,0 +1,9 @@
+Support Library for Android
+
+These files originally lives inside the 
+https://android.googlesource.com/platform/frameworks/support/ repo.
+
+This is just an external repo that is updated every time a release 
+is made on the offical 
+http://developer.android.com/tools/extras/support-library.html site.
+
