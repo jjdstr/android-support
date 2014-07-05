@@ -38,6 +38,7 @@
             android:compatibleWidthLimitDp="480" />
 
     <application android:label="@string/activity_sample_code"
+            android:supportsRtl="true"
             android:icon="@drawable/app_sample_code"
             android:hardwareAccelerated="true">
 
@@ -166,6 +167,34 @@
         <activity android:name=".app.ActionBarFragmentMenu"
                 android:label="@string/action_bar_fragment_menu"
                 android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <!-- RecyclerView samples -->
+        <activity android:name=".widget.RecyclerViewActivity"
+                  android:label="@string/recycler_view"
+                  android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".widget.AnimatedRecyclerView"
+                  android:label="@string/animated_recycler_view"
+                  android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".widget.LinearLayoutManagerActivity"
+                  android:label="@string/linear_layout_manager"
+                  android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
